@@ -132,8 +132,8 @@ const HomeComponent = () => {
                     Projects
                   </a>
                   <a
-                    href="ehizcv.pdf"
-                    download="edubaba Ehizcv.pdf"
+                    href="CV.pdf"
+                    download="bibashCV.pdf"
                     className={`ml-10 cursor-pointer inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1 ${hind.className}`}
                   >
                     My Resume
@@ -143,7 +143,7 @@ const HomeComponent = () => {
             </div>
             <div className="col-span-12 pt-[50px] md:bg-transparent bg-[#d9eef7] md:pt-[161px] md:col-span-7">
               <div className="container m-auto">
-                <img src="/ehizeex.png" alt="bibash" decoding="async"></img>
+                <img src="/bil.png" alt="bibash" decoding="async"></img>
               </div>
             </div>
           </div>
