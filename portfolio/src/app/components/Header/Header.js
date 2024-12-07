@@ -41,22 +41,22 @@ export default function Header() {
       <header
         className={`${
           isScrolled
-            ? "headerShow bg-white h-14 lg:h-24 shadow-xl shadow-[#48AFDE]"
+            ? "headerShow md:shadow-none md:bg-none lg:bg-white h-14 lg:h-24 lg:shadow-xl lg:shadow-[#48AFDE]"
             : ""
         } w-full fixed top-0 z-50 transition-all duration-500`}
       >
         <div className="relative">
           <div
             onClick={openDrawer}
-            className="z-30 absolute cursor-pointer w-14 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] flex justify-center items-center rounded-br-3xl"
+            className="z-30 absolute cursor-pointer w-14 md:w-18 md:h-18 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] flex justify-center items-center rounded-br-3xl md:shadow-xl md:shadow-[#48AFDE] lg:shadow-none"
           >
-            <div className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center items-center">
+            <div className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center items-center ">
               <Image
                 height={100}
                 width={100}
                 src="/drawer.png"
                 alt="drawer item"
-                className="w-[150px] h-10"
+                className="w-[150px] h-10 "
               />
             </div>
           </div>
