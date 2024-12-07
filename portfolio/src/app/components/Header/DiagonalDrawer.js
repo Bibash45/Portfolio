@@ -69,7 +69,7 @@ export default function DiagonalDrawer({
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">
                   <div className="inline-block relative">
                     <a
-                      target="blank"
+                      // target="blank"
                       href="/#home"
                       onClick={() => {
                         setSelectedIndex1(0);
