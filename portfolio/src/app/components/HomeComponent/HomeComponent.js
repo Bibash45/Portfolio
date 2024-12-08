@@ -167,11 +167,6 @@ const HomeComponent = () => {
                       className="h-12"
                     />
                     <img src="/nodejs.png" alt="nodejs" className="h-12" />
-                    <img
-                      src="/expressjs.png"
-                      alt="expressjs"
-                      className="h-12"
-                    />
                   </Slider>
                 </div>
               </div>

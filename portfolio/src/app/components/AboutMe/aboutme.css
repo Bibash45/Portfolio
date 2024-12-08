@@ -1,0 +1,25 @@
+.card{
+    perspective: 800px;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+}
+.card-inner{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner{
+   transform: rotateY(-90deg);
+}
+.fade-left{
+    transition: opacity 0.5s, transform 0.5s;
+    opacity: 1;
+    transform: translateX(0);
+}
+.fade-left.fade-out{
+    opacity: 0;
+    transform: translateX(40%);
+}
