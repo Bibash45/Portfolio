@@ -90,7 +90,6 @@ export default function DiagonalDrawer({
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">
                   <div className="inline-block relative">
                     <a
-                      target="blank"
                       href="/#portfolio"
                       onClick={() => {
                         setSelectedIndex1(1);
@@ -111,7 +110,6 @@ export default function DiagonalDrawer({
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">
                   <div className="inline-block relative">
                     <a
-                      target="blank"
                       href="/#about-me-component"
                       onClick={() => {
                         setSelectedIndex1(2);
@@ -132,7 +130,6 @@ export default function DiagonalDrawer({
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">
                   <div className="inline-block relative">
                     <a
-                      target="blank"
                       href="/page/contactme"
                       onClick={() => {
                         setSelectedIndex1(3);
