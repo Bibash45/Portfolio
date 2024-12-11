@@ -67,7 +67,7 @@ export default function AboutMe() {
               className={`w-full lg:w-1/3 text-[#223740] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              My name is Ehizeex. A professional and enthusiastic full-stack
+              My name is Bibash Chaudhary. A professional and enthusiastic full-stack
               developer and designer. However, I am more than just your average
               programmer or designer. I&apos;ve been running my own business for the
               past 7 years and I was continually coming up with new concepts.

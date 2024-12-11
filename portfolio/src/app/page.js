@@ -16,7 +16,7 @@ export default function Home() {
       <HomeComponent />
       <div
         id="portfolio"
-        className="mt-[270px] md:mt-[350px] lg:mt-[350px] xl:mt-[350px] pt-5 xl:pt-20 "
+        className="mt-[295px] md:mt-[350px] lg:mt-[350px] xl:mt-[350px] pt-5 xl:pt-20 "
         style={{
           backgroundImage:
             "linear-gradient(-62deg, #EE7FB 0 45%, white 0% 100%),",

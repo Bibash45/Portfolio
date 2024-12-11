@@ -228,7 +228,7 @@ export default function DiagonalDrawer({
                 </Link>
                 <Link
                   target="blank"
-                  href="https://www.instagram.com/instructor_ehizeex/"
+                  href="https://www.instagram.com/"
                   className="text-gray-300 hover:text-white transition-colors duration-3000"
                 >
                   <svg
