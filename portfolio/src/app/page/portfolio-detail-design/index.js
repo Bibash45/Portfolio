@@ -150,7 +150,7 @@ export default function Index({ id, data, DataArray }) {
           className={`group w-1/2 flex items-center justify-center bg-cover  ${hind.className}`}
           style={{ backgroundImage: `url(${DataArray[prev]?.images[0]})` }}
         >
-          <Link
+          <button
             className="flex justify-center group:hover:bg-[#223740] cursor-pointer transition-colors duration-300 bg-[#405B66]  bg-opacity-90 items-center w-full h-full"
             onClick={() => router.push(`/portfoliodetail/${prev}`)}
           >
@@ -170,14 +170,14 @@ export default function Index({ id, data, DataArray }) {
               ></path>
             </svg>
             Previous Project
-          </Link>
+          </button>
         </div>
 
         <div
           className={`group w-1/2 flex items-center justify-center bg-cover  ${hind.className}`}
           style={{ backgroundImage: `url(${DataArray[next]?.images[0]})` }}
         >
-          <a
+          <button
             className="flex justify-center group:hover:bg-[#223740] cursor-pointer transition-colors duration-300 bg-[#405B66]  bg-opacity-90 items-center w-full h-full"
             onClick={() => router.push(`/portfoliodetail/${next}`)}
           >
@@ -197,7 +197,7 @@ export default function Index({ id, data, DataArray }) {
               ></path>
             </svg>
             Next Project
-          </a>
+          </button>
         </div>
       </div>
     </React.Fragment>

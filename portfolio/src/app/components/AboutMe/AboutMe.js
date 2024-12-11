@@ -32,7 +32,7 @@ export default function AboutMe() {
   };
 
   const HandleNext = () => {
-    if (selectedIndex < 5) {
+    if (selectedIndex < 2) {
       handleCardClick(AboutData[selectedIndex + 1], selectedIndex + 1);
     } else {
       handleCardClick(AboutData[0], 0);
@@ -42,7 +42,7 @@ export default function AboutMe() {
     if (selectedIndex !== 0) {
       handleCardClick(AboutData[selectedIndex - 1], selectedIndex - 1);
     } else {
-      handleCardClick(AboutData[5], 5);
+      handleCardClick(AboutData[2], 2);
     }
   };
 
