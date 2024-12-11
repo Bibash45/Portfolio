@@ -202,7 +202,7 @@ export default function Footer() {
                 <a
                   className="group flex flex-col items-center justify-center"
                   target="_blank"
-                  href="twitter"
+                  href="https://x.com/Bibas043?t=LG5LgTBhxC82lRG71HEQWA&s=0"
                 >
                   <svg
                     stroke="currentColor"
@@ -244,7 +244,7 @@ export default function Footer() {
                   </h5>
                 </a>
               </div>
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              {/* <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
                 <a
                   className="group flex flex-col items-center justify-center"
                   target="_blank"
@@ -266,7 +266,7 @@ export default function Footer() {
                     Dribble
                   </h5>
                 </a>
-              </div>
+              </div> */}
               <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
                 <a
                   className="group flex flex-col items-center justify-center"
@@ -295,7 +295,7 @@ export default function Footer() {
                 <a
                   className="group flex flex-col items-center justify-center"
                   target="_blank"
-                  href="Instagram"
+                  href="https://www.instagram.com/bibashchaudhary2021/"
                 >
                   <svg
                     stroke="currentColor"
