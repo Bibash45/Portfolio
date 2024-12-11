@@ -5,63 +5,77 @@
 /* ## Global css */
 
 :root {
---foreground-rgb: 0, 0, 0;
---background-start-rgb: 214, 219, 220;
---background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 body {
-color: rgb(var(--foreground-rgb));
-font-family: 'Recoleta', sans-serif;
+  color: rgb(var(--foreground-rgb));
+  font-family: "Recoleta", sans-serif;
 }
 /* /_responsible for the blue tick when a link is clicked _/ */
-.menu-effect{
-left: -0.75rem;
-top: 0.125rem;
-z-index: -10;
-height: 2rem;
-width: 2rem;
-border-radius: 0.5rem;
-background-color: #48AFDE;
-transition-duration: .5s;
-position: absolute;
+.menu-effect {
+  left: -0.75rem;
+  top: 0.125rem;
+  z-index: -10;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  background-color: #48afde;
+  transition-duration: 0.5s;
+  position: absolute;
 }
 
 /* /_this one here is responsible for the smooth scroll_/ */
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /* /_we dnt wanna use webkit scrollbar on a production website _/ */
 ::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 /* /_portfolio deytails overlay background _/ */
 .overlay {
-position: absolute;
-left: 0;
-width: 100%;
- height: 100%;
-z-index: 10; 
-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
-/* backdrop-filter: blur(4px); /_ Add blur effect _/ */
-} 
-
-@media screen and (max-width:900px) {
-
-.ground-color-change{
-background: linear-gradient(90deg, rgba(238,247,251,1) 55%, rgba(255,255,255,1) 55%);
-}
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.6)
+  );
+  /* backdrop-filter: blur(4px); /_ Add blur effect _/ */
 }
 
-@media (max-width:640px) {
-.my-slider{
-width: 100% !important;
-}
+@media screen and (max-width: 900px) {
+  .ground-color-change {
+    background: linear-gradient(
+      90deg,
+      rgba(238, 247, 251, 1) 55%,
+      rgba(255, 255, 255, 1) 55%
+    );
+  }
 }
 
-@media (max-width:640px) {
-.my-slider{
-width: 100% !important;
+@media (max-width: 640px) {
+  .my-slider {
+    width: 100% !important;
+  }
 }
+
+@media (max-width: 640px) {
+  .my-slider {
+    width: 100% !important;
+  }
 }
+
+/* @media (min-width: 1200px) {
+  .headerShow {
+    background-color: #fff;
+    box-shadow: #48afde -1px 25px 50px 10px;
+  }
+} */
