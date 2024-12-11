@@ -74,9 +74,9 @@ export default function Index({ id, data, DataArray }) {
       <div className="absolute z-30 top-[42px] sm:top-[200px] sm:left-[65px] justify-center  items-center w-full px-10 sm:w-3/4 xl:w-1/2 sm:px-0  sm:text-left">
         <div className="container m-auto">
           <div className="max-w-[650px] w-[100%] m-auto">
-            <p className="opacity-3 sm:text-left text-center font-sans text-[#223740] mt-20 lg:mt-10 md:-mt-10">
-              Project Sample
-            </p>
+            {/* <p className="opacity-3 sm:text-left text-center font-sans text-[#223740] mt-20 lg:mt-10 md:-mt-10">
+              Hi, 
+            </p> */}
             <h1 className="opacity-3 text-[#223740] sm:text-left text-center w-full sm:w-3/4 font-recoletaBold text-4xl md:text-4xl lg:text-4xl xl:text-4xl">
               {data?.title}
             </h1>

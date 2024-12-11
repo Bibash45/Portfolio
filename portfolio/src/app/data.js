@@ -48,42 +48,31 @@ export const AboutData = [
 // this is for the slider
 export const DataArray = [
   {
-    title: "Personal Portfolio Website Using Reactjs",
+    title: "Food Order Website Using Reactjs",
     name: "Ultimate ReactJs portfolio",
     des: "I have made this project in 2022  to show thousands of students all over the world  how to make Reactjs portfolio.",
     des1: "This project was made using, Ractjs, Nextjs, Expressjs, Nodejs, Rxjs Bootsrap and many more!",
-    images: ["/reactportfolio.png", "/2.webp", "/3.webp", "/4.webp"],
+    images: ["/food1.jpg", "/food2.jpg"],
   },
   {
-    title: "Management Consulting Company Web Design",
+    title: "Ecommerce Website",
     name: "edubaba Management Consultants",
     des: "We buit this project for edubaba  Management Consultants.",
     des1: "",
 
-    images: ["/hotel01.png"],
+    images: ["/ecommerce1.jpg", "/ecommerce2.png", "/ecommerce3.png"],
   },
   {
-    title: "Food Delivery Company WebSite",
+    title: "'Sastobazar'  E-commerce Website Project",
     name: "Yum Food Company",
     des: "We did  this project for Yum Foods Located in USA.",
     des1: "This website's graphic design is fantastic. Animated sliders are painstakingly built and created in WordPress with Revolution Slider. All of the product photos are photo manipulations created in Adobe Photoshop.",
 
-    images: ["/yumfood.jpg", "/yumfood2.png"],
-  },
-  {
-    title: "Real Estate and Property Management Project",
-    name: "Inans Property Management ",
-    des: "We built this project for inans group LTD",
-    des1: "Aside from its gorgeous design, this website is backed by an outstanding plugin that allows owners and agencies to simply display different properties in the neighbourhood and create an online showcase in an appealing manner for home buyers and tenants..",
-
-    images: ["/property1.png"],
-  },
-  {
-    title: "Crypto Trading Website",
-    name: "Crypto Trading project",
-    des: "We buit this website for BigMoney group",
-    des1: "This project was built to enable clients all over the world to buy and sell their crypto.",
-
-    images: ["/crypto5.png", "/crypto3.png", "/crypto1.png"],
+    images: [
+      "/sastobazar.jpg",
+      "/sastobazar2.jpg",
+      "/sastobazar3.jpg",
+      "/sastobazar4.jpg",
+    ],
   },
 ];
