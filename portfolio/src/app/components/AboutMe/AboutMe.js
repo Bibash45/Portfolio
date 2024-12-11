@@ -69,9 +69,9 @@ export default function AboutMe() {
               {" "}
               My name is Ehizeex. A professional and enthusiastic full-stack
               developer and designer. However, I am more than just your average
-              programmer or designer. I've been running my own business for the
+              programmer or designer. I&apos;ve been running my own business for the
               past 7 years and I was continually coming up with new concepts.
-              I'm very fluid and never stop learning and adapting to new
+              I&apos;m very fluid and never stop learning and adapting to new
               situations.
             </p>
             <p
@@ -90,7 +90,7 @@ export default function AboutMe() {
               When I encounter a new problem, I usually conduct extensive
               research on it in order to comprehend it and discover cutting-edge
               and innovative approaches for dealing with similar problems in the
-              future. As a result, it's not unexpected that I've listed a lot of
+              future. As a result, it&apos;s not unexpected that I&apos;ve listed a lot of
               abilities here:
             </p>
           </section>
@@ -108,7 +108,7 @@ export default function AboutMe() {
           <div className=" hidden sm:flex w-full sm:w-1/2 lg:w-7/12">
             <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mr-0 lg:mr-10">
               {AboutData.map((item, index) => (
-                <a key={index}
+                <div key={index}
                   onClick={() => handleCardClick(item, index)}
                   style={{ boxShadow: "#48AFDE -5px  10px 20px 0px" }}
                   className={`relative cursor-pointer transition-all transform duration-300 group rounded-xl center p-6 lg:p-10 flex flex-col justify-center  items-center ${
@@ -140,7 +140,7 @@ export default function AboutMe() {
                   >
                     {item.count}
                   </div>
-                </a>
+                </div>
               ))}
             </div>
           </div>

@@ -70,7 +70,7 @@ export default function Header() {
               ) : (
                 <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
-              <a
+              <Link
                 className={`menu-item ${
                   selectedIndex1 === 0 ? "text-black" : ""
                 } text-[#666d47] group-hover:text-black`}
@@ -78,7 +78,7 @@ export default function Header() {
                 onClick={() => setSelectedIndex1(0)}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="group text-2xl relative font-bold mr-20">
               {selectedIndex1 === 1 ? (
@@ -86,7 +86,7 @@ export default function Header() {
               ) : (
                 <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
-              <a
+              <Link
                 className={`menu-item ${
                   selectedIndex1 === 1 ? "text-black" : ""
                 } text-[#666d47] group-hover:text-black`}
@@ -94,7 +94,7 @@ export default function Header() {
                 onClick={() => setSelectedIndex1(1)}
               >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="group text-2xl relative font-bold mr-20">
               {selectedIndex1 === 2 ? (
@@ -102,7 +102,7 @@ export default function Header() {
               ) : (
                 <span className="menu-effect transform opacity-0 rotate-12 group-hover:-rotate-12 group-hover:opacity-100"></span>
               )}
-              <a
+              <Link
                 className={`menu-item ${
                   selectedIndex1 === 2 ? "text-black" : ""
                 } text-[#666d47] group-hover:text-black`}
@@ -110,7 +110,7 @@ export default function Header() {
                 onClick={() => setSelectedIndex1(2)}
               >
                 AboutMe
-              </a>
+              </Link>
             </li>
             <li className="group text-2xl relative font-bold mr-20">
               {selectedIndex1 === 3 ? (

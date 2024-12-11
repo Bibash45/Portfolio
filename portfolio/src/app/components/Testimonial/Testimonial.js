@@ -149,7 +149,7 @@ export default function Testimonial() {
                   <p
                     className={`mb-6 font-[200] font-recoletablack min-h-[70px] text-[15px] mt-3`}
                   >
-                    man I'm not gay but I love you for what you did. thank
+                    man I&apos;m not gay but I love you for what you did. thank
                     you. nobody.. seriously nobody teaches this way explaining
                     every class of tailwind and everything you write. people
                     just say that go and download my code from github. but man
@@ -194,7 +194,7 @@ export default function Testimonial() {
                     className={`mb-6 font-[200] font-recoletablack min-h-[70px] text-[15px] mt-3`}
                   >
                     This was an amazing course, thank you so much for your
-                    time! I've never been much of a JS person, it's always so
+                    time! I&apos;ve never been much of a JS person, it&apos;s always so
                     confusing to me. You helped explain things in a way that
                     made sense, and helped me remember. So thank you
                     again.⭐️⭐️⭐️⭐️⭐️
@@ -274,7 +274,7 @@ export default function Testimonial() {
                   <p
                     className={`mb-6 font-[200] font-recoletablack min-h-[70px] text-[15px] mt-3`}
                   >
-                    This is great do-along lecture course that doesn't stall
+                    This is great do-along lecture course that doesn&apos;t stall
                     too long at underlying stuff, some prior knowledge comes
                     handy. One should look up newer and maintained packages on
                     some occasions, but in-all great course.❤️❤️❤️❤️❤️

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const SliderCard = ({ item, index }) => {
   const router = useRouter();
@@ -8,9 +9,10 @@ const SliderCard = ({ item, index }) => {
     <>
       <div className="h-[200px] lg:h-[450px] md:h-[400px]  sm:[200px] lg:w-[650px] md:w-[450px] sma:w-[300px]  w-[300px] relative m-auto">
         <div className="h-full w-full group cursor-all-scroll z-50 relative">
-          <img
+          <Image
             src={item.images[0]}
             alt="item.title"
+            layout="fill"
             className="w-full h-[200px] lg:h-[350px] md:h-[300px] max-w-[100%] rounded-lg"
           />
           <div

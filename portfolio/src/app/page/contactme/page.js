@@ -7,6 +7,7 @@ import { FaHeadphones } from "react-icons/fa";
 import { Hind } from "next/font/google";
 import { ToastClassName, ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -98,9 +99,9 @@ export default function Page() {
         <div className='flex flex-col items-center justify-center bg-[url("/offices.jpg")] bg-cover bg-center w-full h-[400px]'>
           <div className="flex flex-col items-center justify-center  w-full h-full bg-[#223740]/70 backdrop-brightness-50">
             <div className="text-center bg-[#48AFDE] py-[5px] px-[10px] tracking-wide uppercase font-semibold text-[20px] text-white rounded-lg">
-              <a href="#contact" className="cursor-pointer">
+              <Link href="#contact" className="cursor-pointer">
                 Contact Form
-              </a>
+              </Link>
             </div>
             <div className="mt-[10px]">
               <h1 className="recoletaBold text-5xl text-[#48AFDE] p-2 text-center tracking-wide">
@@ -257,7 +258,7 @@ export default function Page() {
                 onClick={handleFocus}
                 className="bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#223740] transition-color rounded-xl"
               >
-                Let's chat
+                Let&apos;s chat
               </button>
             </div>
           </div>

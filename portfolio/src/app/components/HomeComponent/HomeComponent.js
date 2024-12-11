@@ -3,6 +3,8 @@ import { Hind } from "next/font/google";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
+import Image from "next/image";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -118,32 +120,32 @@ const HomeComponent = () => {
                     Hi There!
                   </p>
                   <h1 className="text-[#223740] font-recoletaBlack text-5xl md:text-5xl lg:text-7xl xl:text-7xl mt-5 md:mt-3">
-                    I'm Bibash
+                    I&apos;m Bibash
                   </h1>
                   <h2
                     className={`text-[#223740" py-2 font-bold uppercase md:text-xl ${hind.className}`}
                   >
                     Web Developer and Designer
                   </h2>
-                  <a
+                  <Link
                     href="/#portfolio"
                     className={`cursor-pointer  inline-block bg-[#47AEDE] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1 ${hind.className}`}
                   >
                     Projects
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="CV.pdf"
                     download="bibashCV.pdf"
                     className={`ml-10 cursor-pointer inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1 ${hind.className}`}
                   >
                     My Resume
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-span-12 pt-[50px] md:bg-transparent bg-[#d9eef7] md:pt-[161px] md:col-span-7">
               <div className="container m-auto">
-                <img src="/bil.png" alt="bibash" decoding="async"></img>
+                <Image width={700} height={650} src="/bil.png"  alt="bibash" decoding="async"></Image>
               </div>
             </div>
           </div>
@@ -157,16 +159,17 @@ const HomeComponent = () => {
               >
                 <div className="lg:py-10 md:py-6 sm:py-6 cursor-all-scroll">
                   <Slider {...settings}>
-                    <img src="/mongodb.png" alt="mongodb" className="h-12" />
-                    <img src="/reactjs.png" alt="reactjs" className="h-12" />
-                    <img src="/nextjs.png" alt="nextjs" className="h-12" />
-                    {/* <img src="/docker.png" alt="docker" className="h-12" /> */}
-                    <img
+                    <Image width={200} height={100} src="/mongodb.png" alt="mongodb" className="h-12" />
+                    <Image width={200} height={100}  src="/reactjs.png" alt="reactjs" className="h-12" />
+                    <Image width={200} height={100}  src="/nextjs.png" alt="nextjs" className="h-12" />
+                    <Image width={200} height={100} src="/docker.png" alt="docker" className="h-12" />
+                    <Image
+                    width={200} height={100}
                       src="/expressjs.png"
                       alt="expressjs"
                       className="h-12"
                     />
-                    <img src="/nodejs.png" alt="nodejs" className="h-12" />
+                    <Image  width={200} height={100} src="/nodejs.png" alt="nodejs" className="h-12" />
                   </Slider>
                 </div>
               </div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Hind } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -149,7 +150,7 @@ export default function Index({ id, data, DataArray }) {
           className={`group w-1/2 flex items-center justify-center bg-cover  ${hind.className}`}
           style={{ backgroundImage: `url(${DataArray[prev]?.images[0]})` }}
         >
-          <a
+          <Link
             className="flex justify-center group:hover:bg-[#223740] cursor-pointer transition-colors duration-300 bg-[#405B66]  bg-opacity-90 items-center w-full h-full"
             onClick={() => router.push(`/portfoliodetail/${prev}`)}
           >
@@ -169,7 +170,7 @@ export default function Index({ id, data, DataArray }) {
               ></path>
             </svg>
             Previous Project
-          </a>
+          </Link>
         </div>
 
         <div
