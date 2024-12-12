@@ -162,7 +162,7 @@ const HomeComponent = () => {
                     <Image width={200} height={100} src="/mongodb.png" alt="mongodb" className="h-12" />
                     <Image width={200} height={100}  src="/reactjs.png" alt="reactjs" className="h-12" />
                     <Image width={200} height={100}  src="/nextjs.png" alt="nextjs" className="h-12" />
-                    <Image width={200} height={100} src="/docker.png" alt="docker" className="h-12" />
+                    {/* <Image width={200} height={100} src="/docker.png" alt="docker" className="h-12" /> */}
                     <Image
                     width={200} height={100}
                       src="/expressjs.png"

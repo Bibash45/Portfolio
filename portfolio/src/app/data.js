@@ -49,24 +49,24 @@ export const AboutData = [
 export const DataArray = [
   {
     title: "Food Order Website Using Reactjs",
-    name: "Ultimate ReactJs portfolio",
-    des: "I have made this project in 2022  to show thousands of students all over the world  how to make Reactjs portfolio.",
-    des1: "This project was made using, Ractjs, Nextjs, Expressjs, Nodejs, Rxjs Bootsrap and many more!",
+    name: "Food Order Website",
+    des: "I created this project in 2023 to learn React.js and explore its capabilities in building interactive web applications.",
+    des1: "This project was made using, Ractjs and Vanilla CSS",
     images: ["/food1.jpg", "/food2.jpg"],
   },
   {
     title: "Ecommerce Website",
-    name: "edubaba Management Consultants",
-    des: "We buit this project for edubaba  Management Consultants.",
-    des1: "",
+    name: "Ecommerce Website in MERN stack",
+    des: "I build this project to explore the how complete website works.",
+    des1: "This project was made using, Ractjs, Vanilla CSS, Tailwind CSS, Daisy UI and more..",
 
     images: ["/ecommerce1.jpg", "/ecommerce2.png", "/ecommerce3.png"],
   },
   {
     title: "'Sastobazar'  E-commerce Website Project",
-    name: "Yum Food Company",
-    des: "We did  this project for Yum Foods Located in USA.",
-    des1: "This website's graphic design is fantastic. Animated sliders are painstakingly built and created in WordPress with Revolution Slider. All of the product photos are photo manipulations created in Adobe Photoshop.",
+    name: "Full Stack E-commerce Project",
+    des: "I did this project to explore my knowledge building a full stack ecommerce project .",
+    des1: "This project was developed using React.js, Bootstrap, Express.js, and Mongoose. It features a visually appealing user interface on the frontend, seamless integration of RESTful APIs between the backend and frontend, and robust functionalities such as payment processing, user reviews, pagination, and admin management. Additional features include password recovery, email notifications for order delivery, and a comprehensive user experience.",
 
     images: [
       "/sastobazar.jpg",
