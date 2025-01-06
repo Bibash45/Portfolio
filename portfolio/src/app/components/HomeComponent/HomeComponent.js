@@ -136,6 +136,7 @@ const HomeComponent = () => {
                   <Link
                     href="CV.pdf"
                     download="bibashCV.pdf"
+                    target="_blank"
                     className={`ml-10 cursor-pointer inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg text-white py-3 px-5 font-bold mt-8 uppercase md:py-2 lg:py-3 md:text-xs lg:text-base md:mt-5 xl:mt-10 hover:bg-[#223740] hover:shadow-lg transform hover:translate-y-1 ${hind.className}`}
                   >
                     My Resume
@@ -145,7 +146,13 @@ const HomeComponent = () => {
             </div>
             <div className="col-span-12 pt-[50px] md:bg-transparent bg-[#d9eef7] md:pt-[161px] md:col-span-7">
               <div className="container m-auto">
-                <Image width={700} height={650} src="/bil.png"  alt="bibash" decoding="async"></Image>
+                <Image
+                  width={700}
+                  height={650}
+                  src="/bil.png"
+                  alt="bibash"
+                  decoding="async"
+                ></Image>
               </div>
             </div>
           </div>
@@ -159,17 +166,42 @@ const HomeComponent = () => {
               >
                 <div className="lg:py-10 md:py-6 sm:py-6 cursor-all-scroll">
                   <Slider {...settings}>
-                    <Image width={200} height={100} src="/mongodb.png" alt="mongodb" className="h-12" />
-                    <Image width={200} height={100}  src="/reactjs.png" alt="reactjs" className="h-12" />
-                    <Image width={200} height={100}  src="/nextjs.png" alt="nextjs" className="h-12" />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/mongodb.png"
+                      alt="mongodb"
+                      className="h-12"
+                    />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/reactjs.png"
+                      alt="reactjs"
+                      className="h-12"
+                    />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/nextjs.png"
+                      alt="nextjs"
+                      className="h-12"
+                    />
                     {/* <Image width={200} height={100} src="/docker.png" alt="docker" className="h-12" /> */}
                     <Image
-                    width={200} height={100}
+                      width={200}
+                      height={100}
                       src="/expressjs.png"
                       alt="expressjs"
                       className="h-12"
                     />
-                    <Image  width={200} height={100} src="/nodejs.png" alt="nodejs" className="h-12" />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/nodejs.png"
+                      alt="nodejs"
+                      className="h-12"
+                    />
                   </Slider>
                 </div>
               </div>

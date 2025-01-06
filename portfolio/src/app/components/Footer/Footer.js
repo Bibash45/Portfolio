@@ -28,22 +28,19 @@ export default function Footer() {
           <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-9">
               <p className="text-[30px] text-white text-center lg:text-start">
-                Ready To Get Started?
-              </p>
+              Unleash Your Potential with Me               </p>
               <p className="text-white font-sans text-center lg:text-start">
-                Unlock your potential and elevate your skills with our
-                comprehensive services. Sign up now to begin your journey toward
-                growth and success!
+              Explore my journey, showcase of skills, and past projects. Let's connect and create something amazing together. Your success starts here, and I'm excited to be a part of it!
               </p>
             </div>
             <div className="col-span-12 lg:col-span-3">
               <div className="flex justify-center mt-5 lg:mt-0">
                 <a
                   target="blank"
-                  href="https://www.udemy.com/course/the-ultimate-nextjs13-portfolio-website-responsive/?referralCode=910E0431A13760E0695A"
+                  href="/page/contactme#contact"
                   className="font-sans  cursor-pointer px-10 py-5 bg-[#223740] hover:bg-[#223740] rounded-xl text-white font-medium text-lg"
                 >
-                  Sign Up Now
+                  Get in Touch
                 </a>
               </div>
             </div>

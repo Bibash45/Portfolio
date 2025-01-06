@@ -52,27 +52,33 @@ export const DataArray = [
     name: "Food Order Website",
     des: "I created this project in 2023 to learn React.js and explore its capabilities in building interactive web applications.",
     des1: "This project was made using, Ractjs and Vanilla CSS",
+    tools:["Vanilla CSS", "ReactJs", "Redux ToolKit", "Javascript"],
     images: ["/food1.jpg", "/food2.jpg"],
+    link: "https://minorfoodproject.netlify.app/",
   },
   {
     title: "Ecommerce Website",
     name: "Ecommerce Website in MERN stack",
     des: "I build this project to explore the how complete website works.",
-    des1: "This project was made using, Ractjs, Vanilla CSS, Tailwind CSS, Daisy UI and more..",
+    tools:["Tailwind CSS", "ReactJs", "Redux ToolKit", "Javascript", "Materials UI", "React-Router-Dom"],
+    des1: "This project was made using, Reactjs, Vanilla CSS, Tailwind CSS, Daisy UI and more..",
 
     images: ["/ecommerce1.jpg", "/ecommerce2.png", "/ecommerce3.png"],
+    link:"https://bibash043.netlify.app/"
   },
   {
     title: "'Sastobazar'  E-commerce Website Project",
     name: "Full Stack E-commerce Project",
     des: "I did this project to explore my knowledge building a full stack ecommerce project .",
     des1: "This project was developed using React.js, Bootstrap, Express.js, and Mongoose. It features a visually appealing user interface on the frontend, seamless integration of RESTful APIs between the backend and frontend, and robust functionalities such as payment processing, user reviews, pagination, and admin management. Additional features include password recovery, email notifications for order delivery, and a comprehensive user experience.",
-
+    tools:["Bootstrap", "ReactJs", "Redux ToolKit", "Javascript","NodeJs", "ExpressJs","MongoDb","ChartJs","Oauth",],
     images: [
       "/sastobazar.jpg",
       "/sastobazar2.jpg",
       "/sastobazar3.jpg",
       "/sastobazar4.jpg",
     ],
+
+    link:"https://sastobazar.onrender.com"
   },
 ];

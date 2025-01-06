@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import { Hind } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -74,9 +75,6 @@ export default function Index({ id, data, DataArray }) {
       <div className="absolute z-30 top-[42px] sm:top-[200px] sm:left-[65px] justify-center  items-center w-full px-10 sm:w-3/4 xl:w-1/2 sm:px-0  sm:text-left">
         <div className="container m-auto">
           <div className="max-w-[650px] w-[100%] m-auto">
-            {/* <p className="opacity-3 sm:text-left text-center font-sans text-[#223740] mt-20 lg:mt-10 md:-mt-10">
-              Hi, 
-            </p> */}
             <h1 className="opacity-3 text-[#223740] sm:text-left text-center w-full sm:w-3/4 font-recoletaBold text-4xl md:text-4xl lg:text-4xl xl:text-4xl">
               {data?.title}
             </h1>
@@ -109,8 +107,21 @@ export default function Index({ id, data, DataArray }) {
         </div>
         <div className="col-span-12  lg:col-span-4 lg:px-0 sm:px-20">
           <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1  px-3 sticky top-36 pb-14">
-            <h1 className="text-3xl  mb-4 text-[#48AFDE]">{data?.name}</h1>
-            <p className="text-[14px] font-sans mb-4 text-[#223740]">
+            <h1 className="text-3xl text-[#48AFDE]">{data?.name}</h1>
+            <div className="flex items-center gap-1 pl-3">
+              <FaExternalLinkAlt size={10} />
+              <span>
+                <a
+                  href={data?.link}
+                  target="_blank"
+                  className="underline text-gray-600 text-sm font-sans"
+                >
+                 {data?.link}
+                </a>
+              </span>
+            </div>
+
+            <p className="text-[14px] font-sans mb-4 text-[#223740] mt-4">
               {data?.des}
             </p>
             <p id="highlight" className="my-2  text-dark text-[20px] font-sans">
@@ -122,24 +133,12 @@ export default function Index({ id, data, DataArray }) {
             </p>
 
             <div className="flex flex-wrap">
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                UI/US Design
+              {data?.tools?.map((item,index)=>(
+                <h1 key={index} className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
+                {item}
               </h1>
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                Next.js
-              </h1>
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                React.js
-              </h1>
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                Node.js
-              </h1>
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                Express
-              </h1>
-              <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
-                UI/US Design
-              </h1>
+              
+              ))}
             </div>
           </div>
         </div>
