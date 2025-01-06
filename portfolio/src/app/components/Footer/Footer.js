@@ -30,7 +30,7 @@ export default function Footer() {
               <p className="text-[30px] text-white text-center lg:text-start">
               Unleash Your Potential with Me               </p>
               <p className="text-white font-sans text-center lg:text-start">
-             {` Explore my journey, showcase of skills, and past projects. Let's connect and create something amazing together. Your success starts here, and I'm excited to be a part of it!`}
+              Explore my journey, showcase of skills, and past projects. Let&apos;s connect and create something amazing together. Your success starts here, and I&apos;m excited to be a part of it!
               </p>
             </div>
             <div className="col-span-12 lg:col-span-3">
