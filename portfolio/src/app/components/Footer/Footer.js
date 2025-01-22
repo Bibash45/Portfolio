@@ -22,7 +22,7 @@ export default function Footer() {
     <div id="footer" className="mt-[5px]">
       <div className="bg-white  pt-0 lg:pt-[100px]">
         <div
-          className="max-w-[1140px] bg-blue-500 rounded-xl  px-[20px] sm:px-[64px] py-[64px] m-auto"
+          className="max-w-[1140px] bg-[#48AFDE] rounded-xl  px-[20px] sm:px-[64px] py-[64px] m-auto"
           style={{ transform: "translate(0px, 70px)" }}
         >
           <div className="grid grid-cols-12">

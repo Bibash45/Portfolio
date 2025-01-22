@@ -81,4 +81,28 @@ export const DataArray = [
 
     link:"https://sastobazar.onrender.com"
   },
+  {
+    "title": "'WhatsApp Clone'",
+    "name": "Full Stack Chat Application Project",
+    "des": "I built this project to deepen my understanding of real-time web applications and explore advanced full-stack development concepts.",
+    "des1": "This project was developed using React.js, Redux Toolkit, Node.js, Express.js, and MongoDB. It features real-time messaging, video calling using WebRTC, authentication with JWT, and state management with Redux Persist. Additional functionalities include typing indicators, online statuses, group chats, file sharing, emojis, and secure image storage with Cloudinary. The user interface is intuitive and responsive, providing a seamless experience across all devices.",
+    "tools": [
+        "Bootstrap",
+        "ReactJs",
+        "Redux ToolKit",
+        "Javascript",
+        "NodeJs",
+        "ExpressJs",
+        "MongoDb",
+        "Socket.IO",
+        "WebRTC",
+        "Cloudinary"
+    ],
+    images: [
+      "/chat.jpg",
+      "/chat2.png",
+      "/chat3.jpg",
+    ],
+    link:"https://nepalconnect.onrender.com/"
+  },
 ];
