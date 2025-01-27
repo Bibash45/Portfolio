@@ -8,11 +8,10 @@ export const AboutData = [
     array: [
       "Information Architecture",
       "Pen and Paper",
-      "Adobe Photoshop",
-      // "Adobe Illustrator",
       "Figma",
-      // "Framer",
-      // "Typography / Spacing / ...",
+      "Adobe Photoshop",
+      "Logo Design",
+      "Banner Design",
     ],
   },
   {

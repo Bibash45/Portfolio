@@ -3,14 +3,21 @@ import Accordian from "../Footer/Accordian";
 
 export default function Footer() {
   const service = [
-    " 1-on-1 Coaching",
-    "Company Review",
-    "Accounts Review",
-    "HR Consulting",
-    "SEO Optimisation",
+    "Full-Stack Development Services",
+    "UI/UX Design",
+    "E-commerce Development",
+    "API Development and Integration",
+    "Graphic Design Services",
   ];
-  const company = ["About", "Meet the Team", "Accounts Review"];
-  const helping = ["Contact", "FAQs", "Live Chat"];
+  const company = [
+    "Communication ",
+    "Project Management",
+    "Privacy and Data Protection",
+  ];
+  const helping = [
+    "Contact",
+    // "FAQs", "Live Chat"
+  ];
   const legal = [
     "Accessibility",
     "Returns Policy",
@@ -28,9 +35,12 @@ export default function Footer() {
           <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-9">
               <p className="text-[30px] text-white text-center lg:text-start">
-              Unleash Your Potential with Me               </p>
+                Unleash Your Potential with Me{" "}
+              </p>
               <p className="text-white font-sans text-center lg:text-start">
-              Explore my journey, showcase of skills, and past projects. Let&apos;s connect and create something amazing together. Your success starts here, and I&apos;m excited to be a part of it!
+                Explore my journey, showcase of skills, and past projects.
+                Let&apos;s connect and create something amazing together. Your
+                success starts here, and I&apos;m excited to be a part of it!
               </p>
             </div>
             <div className="col-span-12 lg:col-span-3">

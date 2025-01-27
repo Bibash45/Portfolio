@@ -4,7 +4,7 @@ import { Hind } from "next/font/google";
 import { AboutData } from "@/app/data";
 import Image from "next/image";
 
-import './aboutme.css'
+import "./aboutme.css";
 
 const hind = Hind({
   subsets: ["latin"],
@@ -66,32 +66,33 @@ export default function AboutMe() {
             <p
               className={`w-full lg:w-1/3 text-[#223740] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
-              {" "}
-              My name is Bibash Chaudhary. A professional and enthusiastic full-stack
-              developer and designer. However, I am more than just your average
-              programmer or designer. I&apos;ve been running my own business for the
-              past 7 years and I was continually coming up with new concepts.
-              I&apos;m very fluid and never stop learning and adapting to new
-              situations.
+              My name is Bibash Chaudhary, a passionate and dedicated MERN
+              full-stack developer. I specialize in building dynamic and
+              scalable web applications using MongoDB, Express.js, React, and
+              Node.js. Beyond programming, I have a strong creative mindset,
+              continually exploring new technologies and adapting to emerging
+              challenges. My journey is driven by a commitment to learning,
+              innovation, and delivering impactful solutions through code and
+              design.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#223740] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
-              {" "}
-              This attitude propelled me on an endless journey to learn a
-              variety of skills, including  UI/UX, design,
-              front-end and back-end development, product design, software design, database
-              design, and many more...
+              This mindset has driven me on an endless journey to master a
+              variety of skills, including UI/UX design, front-end and back-end
+              development, product design, software architecture, database
+              design, and much more. My passion for learning and adapting
+              ensures I stay at the forefront of technology, creating efficient,
+              scalable, and user-centric solutions.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#223740] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
-              {" "}
               When I encounter a new problem, I usually conduct extensive
               research on it in order to comprehend it and discover cutting-edge
               and innovative approaches for dealing with similar problems in the
-              future. As a result, it&apos;s not unexpected that I&apos;ve listed a lot of
-              abilities here:
+              future. As a result, it&apos;s not unexpected that I&apos;ve
+              listed a lot of abilities here:
             </p>
           </section>
         </div>
@@ -108,7 +109,8 @@ export default function AboutMe() {
           <div className=" hidden sm:flex w-full sm:w-1/2 lg:w-7/12">
             <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mr-0 lg:mr-10">
               {AboutData.map((item, index) => (
-                <div key={index}
+                <div
+                  key={index}
                   onClick={() => handleCardClick(item, index)}
                   style={{ boxShadow: "#48AFDE -5px  10px 20px 0px" }}
                   className={`relative cursor-pointer transition-all transform duration-300 group rounded-xl center p-6 lg:p-10 flex flex-col justify-center  items-center ${
@@ -118,10 +120,12 @@ export default function AboutMe() {
                   }`}
                 >
                   <div className="w-16 h-16 sm:w-10 sm:h-10  lg:w-16 lg:h-16">
-                    <Image 
-                    height={100}
-                    width={100}
-                    src={item.img} alt="internet issues"/>
+                    <Image
+                      height={100}
+                      width={100}
+                      src={item.img}
+                      alt="internet issues"
+                    />
                   </div>
                   <h4
                     className={`text-center text-sm lg:text-xl  font-recoletaBold transition-colors duration-500 group-hover:text-white text-[#47626D] mt-3 ${
@@ -146,9 +150,9 @@ export default function AboutMe() {
           </div>
           <div className="w-full sm:w-1/2 lg:w-5/12 overflow-visible px-0 sm:pl-6 xl:px-10">
             <div className="bg-white  lg:mt-0 mt-10 rounded-xl p-10 xl:p-12 shadow-accent-color relative">
-            <section
+              <section
                 className={`fade-left overflow-hidden ${
-                  isFaded ? "fade-out" : ""        
+                  isFaded ? "fade-out" : ""
                 }`}
               >
                 <p
@@ -164,7 +168,9 @@ export default function AboutMe() {
                   className={`${hind.className} font-[300] list-disc text-[#47626D] ml-8 lg:ml-10 text-base lg:text-lg transition duration-500 transform  opacity-100 undefined undefined`}
                 >
                   {mapData?.array?.map((obj) => (
-                    <li key={obj} className="mb-2">{obj}</li>
+                    <li key={obj} className="mb-2">
+                      {obj}
+                    </li>
                   ))}
                 </ul>
               </section>

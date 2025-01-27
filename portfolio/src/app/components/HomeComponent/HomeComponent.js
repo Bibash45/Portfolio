@@ -187,7 +187,7 @@ const HomeComponent = () => {
                       alt="nextjs"
                       className="h-12"
                     />
-                    {/* <Image width={200} height={100} src="/docker.png" alt="docker" className="h-12" /> */}
+
                     <Image
                       width={200}
                       height={100}
@@ -200,7 +200,28 @@ const HomeComponent = () => {
                       height={100}
                       src="/nodejs.png"
                       alt="nodejs"
-                      className="h-12"
+                      className="h-12 "
+                    />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/figma.svg"
+                      alt="figma"
+                      className="h-12 object-fill"
+                    />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/python.svg"
+                      alt="figma"
+                      className="h-12 object-cover"
+                    />
+                    <Image
+                      width={200}
+                      height={100}
+                      src="/photoshop.svg"
+                      alt="figma"
+                      className="h-12 object-contain"
                     />
                   </Slider>
                 </div>
