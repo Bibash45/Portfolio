@@ -3,7 +3,7 @@
 export const AboutData = [
   {
     count: 1,
-    title: "UI / UX Designer",
+    title: " Graphics Designer",
     img: "/first.svg",
     array: [
       "Information Architecture",
